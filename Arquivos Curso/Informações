@@ -1,0 +1,24 @@
+HTML
+Os comentários no HTML se assemelham com uma abertura de tag. Abrimos um comentário com <!-- e fazemos seu fechamento com -->. Tudo que estiver entre esses dois marcadores será considerado como comentário, inclusive quebras de linha:
+
+<p> Isso é um parágrafo de texto e será exibido pelo navegador </p>
+
+<!-- Isso é um comentário e será ignorado  -->
+
+<!-- Isso é um comentário com quebra de linha
+
+e também será ignorado  -->
+
+<p> Isso é um parágrafo de texto e será exibido pelo navegador </p>
+
+CSS
+Os comentários em CSS também possuem abertura e fechamento. Abrimos esse tipo de comentário com /* e fechamos com */ e assim como no HTML, tudo que estiver entre essas marcações será considerado comentário, ainda que esteja entre mais de uma linha:
+
+body{
+    background-color: white; 
+    /* Isso é um comentário em CSS */
+    /* 
+        Isso é um comentário em CSS com
+        quebra de linha
+    */
+}

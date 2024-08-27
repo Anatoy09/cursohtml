@@ -34,20 +34,35 @@ body{
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
 }
+.apresentacao__links__subtitulo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size:24px;
+}
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 12px;
 }
 .apresentacao__lnks__link{
-    background-color: #22d4fd;
-    width: 280px;
+    /*background-color: #22d4fd;*/
+    border: 2px solid rgb(77, 224, 230);
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 20px;
-    font-weight: 3
-00 ;
-    padding: 21.5px 0; 
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 300 ;
+    padding: 16px 0; 
+    gap: 16px;
     text-decoration: none;
-    color:black;
+    color:white;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
 }
