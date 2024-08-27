@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-* { 
-    /* margin: 100;
-    padding: 100; */
-}
 body{
     height: 100vh;
     box-sizing: border-box;
@@ -10,12 +6,25 @@ body{
     color: white;
     margin: 0px;
 }
-
+.cabecalho{
+    padding: 5% 0% 0% 6%;
+}
+.cabecalho__menu{ 
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-family: 24px;
+    font-weight: 600;
+    color:#22D4FD;
+    text-decoration: none;
+}
 .titulo-destaque { 
     color:red
 }
 .apresentacao {
-    padding: 8% 6%;
+    padding: 1% 6%;
     display:flex;
     align-items:center;
     justify-content:space-between;
