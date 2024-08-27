@@ -22,3 +22,11 @@ body{
         quebra de linha
     */
 }
+A propriedade justify-content controla o posicionamento dos elementos filhos ao longo do eixo principal e também ajuda a distribuir o espaço livre entre eles. 
+Com o valor space-around, os itens serão distribuídos cada um com um espaço ao seu redor.
+
+A propriedade justify-content controla o posicionamento dos elementos filhos ao longo do eixo principal e também ajuda a distribuir o espaço livre entre eles. 
+Com o valor center, os elementos serão centralizados em seu elemento pai, mas sem espaços entre si.
+
+A propriedade justify-content controla o posicionamento dos elementos filhos ao longo do eixo principal e também ajuda a distribuir o espaço livre entre eles. Com o valor space-evenly, os itens são distribuídos com espaços iguais entre si e até as bordas. 
+Como temos apenas 2 elementos, eles ficarão centralizados.
